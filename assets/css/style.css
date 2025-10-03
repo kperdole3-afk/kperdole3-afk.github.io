@@ -1,0 +1,102 @@
+@media only screen and (max-width: 390px){
+  * {
+    font-size: 12px;
+  }
+  
+  .navbar {
+    padding: 10px;
+  }
+  .navbar-brand {
+    font-size: 18px;
+  }
+  .nav-link {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  footer {
+    padding: 20px;
+  }
+  footer h5 {
+    font-size: 18px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+
+  #GIF {
+    width: 100%; 
+    height: auto;
+  }
+  
+  body {
+    font-size: 16px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .container {
+    padding: 20px;
+  }
+  .embed-responsive {
+    width: 390px;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+}
+
+
+.product-block {
+  background-color: #ED4350; 
+  padding: 10px; 
+  width: 175px; 
+  height: 175px; 
+  display: inline-block; 
+  margin: 10px;
+  border-radius: 10px; 
+}
+
+.product-block img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  padding: 10px; 
+}
+
+.img-hover:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.jumbotron.jumbotron-fluid {
+  background-color: #ffffff;
+}
+
+body {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.embed-responsive-item {
+  overflow: hidden;
+}
+
+#more {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
