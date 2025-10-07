@@ -2,7 +2,7 @@
   * {
     font-size: 12px;
   }
-  
+ 
   .navbar {
     padding: 10px;
   }
@@ -47,8 +47,6 @@
     margin-bottom: 20px;
   }
 }
-
-
 .product-block {
   background-color: #ED4350; 
   padding: 10px; 
@@ -58,7 +56,6 @@
   margin: 10px;
   border-radius: 10px; 
 }
-
 .product-block img {
   display: block;
   margin: 0 auto;
@@ -66,37 +63,32 @@
   height: auto;
   padding: 10px; 
 }
-
 .img-hover:hover {
   opacity: 0.7;
   transition: opacity 0.3s ease-in-out;
 }
-
 .jumbotron.jumbotron-fluid {
   background-color: #ffffff;
 }
-
 body {
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
-
 footer {
   margin-top: auto;
 }
-
 .embed-responsive-item {
   overflow: hidden;
 }
-
 #more {
   position: absolute;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
 }
+
 
 
 
